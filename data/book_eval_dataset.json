@@ -1,0 +1,48 @@
+{
+  "name": "CCMD-3 book RAG evaluation",
+  "description": "Deterministic checks for retrieval evidence and generated answers.",
+  "cases": [
+    {
+      "id": "schizophrenia_course",
+      "question": "精神分裂症的病程标准是什么？",
+      "expected_keywords": ["1个月", "2周"],
+      "expected_source": "book.txt"
+    },
+    {
+      "id": "simple_schizophrenia",
+      "question": "单纯型精神分裂症的主要症状和病程要求是什么？",
+      "expected_keywords": ["阴性症状", "2年"],
+      "expected_source": "book.txt"
+    },
+    {
+      "id": "depressive_episode_course",
+      "question": "抑郁发作的病程标准是什么？",
+      "expected_keywords": ["2周"],
+      "expected_source": "book.txt"
+    },
+    {
+      "id": "manic_episode_course",
+      "question": "躁狂发作的病程标准是什么？",
+      "expected_keywords": ["1周"],
+      "expected_source": "book.txt"
+    },
+    {
+      "id": "panic_disorder_course",
+      "question": "惊恐障碍的病程标准是什么？",
+      "expected_keywords": ["1个月", "3次"],
+      "expected_source": "book.txt"
+    },
+    {
+      "id": "generalized_anxiety_course",
+      "question": "广泛性焦虑的病程标准是什么？",
+      "expected_keywords": ["6个月"],
+      "expected_source": "book.txt"
+    },
+    {
+      "id": "obsessive_compulsive_course",
+      "question": "强迫症的病程标准是什么？",
+      "expected_keywords": ["3个月"],
+      "expected_source": "book.txt"
+    }
+  ]
+}

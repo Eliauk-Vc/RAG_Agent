@@ -1,0 +1,18 @@
+# Already available in D:/Anaconda3/envs/lightrag; no reinstall is required.
+aiohttp
+json_repair
+nano-vectordb
+networkx
+numpy>=1.24,<3
+openai>=2,<3
+packaging
+pandas>=2,<2.4
+pipmaster
+pydantic>=2
+python-dotenv
+tenacity
+tiktoken
+fastapi
+httpx>=0.28.1
+uvicorn
+python-docx>=1.1,<2
